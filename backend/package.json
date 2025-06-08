@@ -1,0 +1,21 @@
+{
+  "name": "realtime-voice-backend",
+  "version": "1.0.0",
+  "description": "Backend server for OpenAI Realtime Voice App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
